@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Cormorant+SC:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/4f44a4e1eb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <!-- this suppresses 404 favicon error with firefox -->
+    <link rel="shortcut icon" href="#" />
+    <title>The Haukai Restaurant</title>
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <a></a>
+      <a href="home.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="reservations.html">Reservations</a>
+      <a href="contact.html">Contact</a>
+      <a href="hours.html">Hours</a>
+      <a
+        href="javascript:void(0);"
+        class="icon"
+        onclick="myFunction()"
+        alt="dropdown for menu"
+      >
+        <i class="fa-solid fa-bars"></i>
+      </a>
+    </nav>
+    <hr />
+    <header><h1>The Haukai Restaurant</h1></header>
+    <main>
+      <div class="container center">
+        <article>
+          <h2>Opening hours</h2>
+          <hr />
+          Wednesday 4 - 11pm <br />
+          Thursday 4 - 11pm <br />
+          Friday 4 - 11pm <br />
+          Saturday 4 - 11pm <br />
+          Sunday 4 - 11pm <br />
+        </article>
+        <iframe
+          title="Opening hours"
+          src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23616161&ctz=Pacific%2FAuckland&title=Reservations&showTabs=0&showPrint=0&showTz=0&showCalendars=0&src=cHFnczdsbHVlYTU1c3JpOWxjajhqazJkdGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23616161"
+          style="border-width: 0; margin-top: 10px"
+          width="80%"
+          height="600"
+          frameborder="0"
+          scrolling="no"
+          X-Frame-Options="SAMEORIGIN"
+        ></iframe>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <hr />
+      <div class="footer__sections">
+        <div class="footer__section">
+          <p>Sitemap</p>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/menu.html">Menu</a></li>
+            <li><a href="/reservations.html">Reservations</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="/hours.html">Hours</a></li>
+          </ul>
+        </div>
+        <div class="footer__section">
+          <p>
+            &copy; Copyright 2020 by The Haukai Restaurant. All rights reversed.
+          </p>
+          <a href="/privacy.html">Privacy Statement</a>
+          <ul style="list-style: none">
+            <li>1 Island Street</li>
+            <li>Kerikeri</li>
+            <li>Bay of Islands</li>
+            <li><a href="tel:+64-09-401-4019">Phone 09 401 4019</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
