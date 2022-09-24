@@ -17,23 +17,23 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-     <!-- Google tag (gtag.js) -->
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id=G-6PVKNY3S5F"
-  ></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-6PVKNY3S5F"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    gtag("config", "G-6PVKNY3S5F");
-  </script>
+      gtag("config", "G-6PVKNY3S5F");
+    </script>
     <title>The Haukai Restaurant</title>
   </head>
-  
+
   <body>
     <nav class="navbar navbar-expand-md navbar-dark">
       <div class="container-fluid">
@@ -175,17 +175,17 @@
           <section>
             <h3>Beverages</h3>
             <hr />
-            <table>
+            <table aria-label="red wines">
               <thead>
                 <tr>
-                  <td>
+                  <th>
                     Red
                     <hr />
-                  </td>
-                  <td>
+                  </th>
+                  <th>
                     B/G
                     <hr />
-                  </td>
+                  </th>
                 </tr>
               </thead>
               <tbody>
@@ -223,17 +223,17 @@
                 </tr>
               </tbody>
             </table>
-            <table>
+            <table aria-label="White wines">
               <thead>
                 <tr>
-                  <td>
+                  <th>
                     White
                     <hr />
-                  </td>
-                  <td>
+                  </th>
+                  <th>
                     B/G
                     <hr />
-                  </td>
+                  </th>
                 </tr>
               </thead>
               <tbody>
@@ -271,17 +271,17 @@
                 </tr>
               </tbody>
             </table>
-            <table>
+            <table aria-labelledby="beer-cider">
               <thead>
                 <tr>
-                  <td>
+                  <th id="beer-cider">
                     Beer and Cider
                     <hr />
-                  </td>
-                  <td>
+                  </th>
+                  <th>
                     B/G
                     <hr />
-                  </td>
+                  </th>
                 </tr>
               </thead>
               <tbody>
@@ -315,17 +315,17 @@
                 </tr>
               </tbody>
             </table>
-            <table>
+            <table aria-labelledby="no-alc">
               <thead>
                 <tr>
-                  <td>
+                  <th id="no-alc">
                     Non-Alcoholic
                     <hr />
-                  </td>
-                  <td>
+                  </th>
+                  <th>
                     B/G
                     <hr />
-                  </td>
+                  </th>
                 </tr>
               </thead>
               <tbody>
